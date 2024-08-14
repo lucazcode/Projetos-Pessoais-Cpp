@@ -8,11 +8,11 @@ int main(){
 
   setlocale(LC_ALL, "Portuguese");
 
-  std::cout << "Decimal para Binário\n\n";
+  std::cout << "Decimal para BinÃ¡rio\n\n";
 
   long long int decimal;
 
-  std::cout << "Insira um número decimal: ";
+  std::cout << "Insira um nÃºmero decimal: ";
   std::cin >> decimal;
 
   calculo(decimal);
@@ -55,7 +55,7 @@ void calculo(long long int p_decimal){
 
   arr_resto[i] = '1';
 
-  std::cout << "\nDecimal " << inicio_decimal << " em binário: ";
+  std::cout << "\nDecimal " << inicio_decimal << " em binÃ¡rio: ";
 
   for(int j=i; j>=0; j--){
 
